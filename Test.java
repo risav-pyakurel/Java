@@ -3,15 +3,12 @@ public class Test {
     int x =10;
 
     public static void main(String[] args) {
-        System.out.println("Hello World"); 
 
-    }
+    int a = 1;
+    System.out.println(Integer.toString(a));
+    String name = "Risav Pyakurel";
+    System.out.println(name);
 
-    public static void main1(String[] args) {
-        System.out.println("Hello World 1");
-    }
 
-    public static void main2(String[] args) {
-        System.out.println("Hello World 2");
     }
 }
