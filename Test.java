@@ -31,6 +31,20 @@ public class Test {
 
         marks.put("risav", 100);
         marks.put("sam" , 50);
+        for(Map.Entry<String, Integer > entry : marks.entrySet()){
+            System.out.print(entry.getKey()+ "----------");
+            System.out.println(entry.getValue());
+            System.out.println("----------------");
+
+        }
+        Optional<Integer> marksofrisav = Optional.ofNullable(marks.get("rohot"));
+        if (marksofrisav.isPresent()){
+
+
+        }
+        else{
+            System.out.println("I'm not present");
+        }
         // char [] arr1 = {'a','b','c'};
 
         // for(int i =0; i<=arr1.length; i++){
