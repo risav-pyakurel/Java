@@ -37,7 +37,7 @@ public class Test {
             System.out.println("----------------");
 
         }
-        Optional<Integer> marksofrisav = Optional.ofNullable(marks.get("rohot"));
+        Optional<Integer> marksofSAMRAT = Optional.ofNullable(marks.get("rohot"));
         if (marksofrisav.isPresent()){
 
 
@@ -49,6 +49,8 @@ public class Test {
 
         // for(int i =0; i<=arr1.length; i++){
         //     System.out.println(arr1[i]);
+
+
 
 
         // }
