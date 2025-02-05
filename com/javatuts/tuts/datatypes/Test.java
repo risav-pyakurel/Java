@@ -2,11 +2,8 @@ package com.javatuts.tuts.datatypes;
 
 public class  Test {
     public static void main (String[] args){
-        int a = 1;
-        byte b = 1;
-        short c = 1;
-        long d = 1;
+        boolean isAdult = false;
+        isAdult = true;
 
-        System.out.println(c+d);
     }
 }
