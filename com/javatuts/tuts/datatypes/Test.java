@@ -1,9 +1,15 @@
 package com.javatuts.tuts.datatypes;
 
+
 public class  Test {
     public static void main (String[] args){
-        boolean isAdult = false;
-        isAdult = true;
+    String str1 = "hello";
+    String str2 = "hello";
+    String str3 = new String("hello");
+
+        System.out.println(str1 == str2);
+        System.out.println(str1 == str3);
+
 
     }
 }
