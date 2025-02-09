@@ -6,6 +6,8 @@ public class Loop {
         while (counter>10) {
             System.out.println("hellp world");
             counter += 1;
+            return counter
+
         }
 
 
